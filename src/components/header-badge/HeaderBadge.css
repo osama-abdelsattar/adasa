@@ -1,0 +1,6 @@
+@layer components {
+  @reference "../../App.css";
+  .badge {
+    @apply rounded-full inline-flex items-center text-sm font-medium text-orange-500 gap-2 px-4 py-2 border border-orange-500/30 bg-orange-500/10 before:h-1.5 before:w-1.5 before:bg-orange-500 before:rounded-full before:animate-pulse;
+  }
+}

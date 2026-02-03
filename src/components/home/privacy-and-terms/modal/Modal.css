@@ -1,0 +1,21 @@
+@layer components {
+  @reference "../../../../App.css";
+  .modal-orange {
+    @apply bg-orange-500/10 border border-orange-500/20;
+  }
+  .modal-orange h3 {
+    @apply text-orange-500;
+  }
+  .modal-orange h3 + p {
+    @apply text-orange-300/80;
+  }
+  .modal-yellow {
+    @apply bg-yellow-500/10 border border-yellow-500/20;
+  }
+  .modal-yellow h3 {
+    @apply text-yellow-500;
+  }
+  .modal-yellow h3 + p {
+    @apply text-yellow-300/80;
+  }
+}

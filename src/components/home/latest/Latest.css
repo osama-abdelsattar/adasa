@@ -1,0 +1,6 @@
+@layer components {
+  @reference "../../../App.css";
+  .card {
+    @apply transition-[0.5s] rounded-3xl bg-neutral-900 border border-neutral-800 overflow-hidden;
+  }
+}

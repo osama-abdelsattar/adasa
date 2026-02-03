@@ -1,0 +1,9 @@
+@layer components {
+  @reference "../../../App.css";
+  .input-dark {
+    @apply transition outline-0 border border-[#262626] bg-[#161616] rounded-xl text-white focus:border-[#f97316];
+  }
+  .input-dark:focus {
+    box-shadow: 0 0 0 3px #f973161a;
+  }
+}

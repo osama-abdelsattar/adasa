@@ -1,0 +1,21 @@
+@layer components {
+  @reference "../../App.css";
+  .btn {
+    @apply text-neutral-400 hover:text-white;
+  }
+  .btn.active {
+    @apply bg-linear-to-r from-orange-500 to-orange-600 text-white!;
+  }
+  .mobile-btn {
+    @apply text-neutral-400 hover:bg-[#1a1a1a] hover:text-white;
+  }
+  .mobile-btn.active {
+    @apply bg-orange-500/10 text-orange-500 border border-orange-500/30;
+  }
+  .btn-primary {
+    @apply px-8 py-4 font-semibold text-white transition-all duration-300 inline-flex justify-center items-center rounded-full hover:-translate-y-0.5 bg-linear-to-br from-orange-500 to-orange-600;
+  }
+  .btn-secondary {
+    @apply px-8 py-4 font-semibold bg-transparent text-white transition-all duration-300 inline-flex justify-center items-center rounded-full border border-neutral-700 hover:text-orange-500 hover:border-orange-500 hover:bg-orange-500/10;
+  }
+}
